@@ -49,6 +49,6 @@ class my_scoreboard extends uvm_component;
     `uvm_info(get_type_name(), $sformatf("Wrote %0d packets.", i), UVM_MEDIUM)
   endfunction
   
-endclass
+endclass: my_scoreboard
 
 `endif // MY_SCOREBOARD_SVH

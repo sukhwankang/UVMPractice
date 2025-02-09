@@ -1,3 +1,4 @@
+// uvm_sequence_item
 class my_transaction extends uvm_sequence_item;
 
   `uvm_object_utils(my_transaction)
@@ -14,6 +15,7 @@ class my_transaction extends uvm_sequence_item;
 
 endclass: my_transaction
 
+// uvm_Sequence
 class my_sequence extends uvm_sequence#(my_transaction);
 
   `uvm_object_utils(my_sequence)

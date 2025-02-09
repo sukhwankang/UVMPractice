@@ -45,6 +45,6 @@ class my_monitor extends uvm_monitor;
     `uvm_info(get_type_name(), $sformatf("Processed %0d packets.", i), UVM_MEDIUM)
   endfunction
 
-endclass
+endclass: my_monitor
 
 `endif  // MY_MONITOR_SVH
